@@ -1,7 +1,11 @@
 export default function Home() {
   return (
     <>
-      <style jsx>{`
+      <style jsx global>{`
+        body, html {
+          margin: 0;
+          padding: 0;
+        }
         @keyframes fadeIn {
           from {
             opacity: 0;
